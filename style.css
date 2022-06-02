@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+butto::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.content {
+  padding: 50px 20px 50px 20px;
+  max-width: 840px;
+  margin: 0 auto;
+}
+.list {
+  margin-bottom: 40px;
+}
+.list li {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.list li::before {
+  content: url(check-mark.png);
+}
+.list li:nth-child(1) {
+  text-decoration: line-through;
+}
+.list li:nth-child(2) {
+  font-weight: bold;
+}
+.list li:nth-child(3) {
+  font-style: italic;
+}
+.list li:nth-child(4) {
+  text-transform: uppercase;
+}
+.list li:nth-child(1):hover {
+  text-decoration: none;
+}
+.list li:nth-child(2):hover {
+  font-weight: normal;
+  color: blue;
+}
+.list li:nth-child(2):hover::before {
+  content: url(check-hover.png);
+  padding: 0px 10px 0px 0px;
+}
+.list li:nth-child(3):hover {
+  font-style: normal;
+}
+.list li:nth-child(4):hover {
+  text-transform: none;
+}
+
+.textinput {
+  border: 1px solid #666;
+  height: 50px;
+  font-size: 18px;
+  width: 300px;
+  margin: 0px 10px 10px 0px;
+}
+.textinput:focus {
+  border: 1px solid rgb(1, 1, 1);
+  box-shadow: 0 6px 10px;
+}
+
+.textbutton {
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 30px;
+  background-color: #81c49e;
+  box-shadow: 0 6px 15px;
+  border-radius: 24px;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  margin-bottom: 50px;
+}
+.textbutton:hover {
+  background-color: #628b76;
+}
+.textbutton:active {
+  background-color: #414342;
+}
+.text::first-line {
+  color: blue;
+}
+.text {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.text-category::first-letter {
+  color: blue;
+}
+.text-category {
+  font-size: 25px;
+}
